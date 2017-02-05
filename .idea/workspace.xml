@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1537410e-88e6-41cc-9693-514a784f596a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/customers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/customers.php" afterPath="$PROJECT_DIR$/src/routes/customers.php" />
     </list>
     <ignored path="RestAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,25 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/customers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.153846">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.56330276">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#6#62#0#PHP" expanded="true" />
-                <marker date="1486321958069" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
-                <marker date="1486321958069" expanded="true" signature="665:688" placeholder="SELECT * FRO... customers" />
+                <marker date="1486324217121" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
+                <marker date="1486324217121" expanded="true" signature="971:1124" placeholder="INSERT INTO customers... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.703704">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/src/config/db.php" />
-        <option value="$PROJECT_DIR$/src/routes/customers.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/routes/customers.php" />
       </list>
     </option>
   </component>
@@ -354,23 +354,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/customers.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.153846">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#6#62#0#PHP" expanded="true" />
-            <marker date="1486321958069" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
-            <marker date="1486321958069" expanded="true" signature="665:688" placeholder="SELECT * FRO... customers" />
-          </folding>
+        <state vertical-scroll-proportion="-10.703704">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/routes/customers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.56330276">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#62#0#PHP" expanded="true" />
+            <marker date="1486324217121" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
+            <marker date="1486324217121" expanded="true" signature="971:1124" placeholder="INSERT INTO customers... " />
+          </folding>
         </state>
       </provider>
     </entry>
