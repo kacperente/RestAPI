@@ -4,9 +4,9 @@ use \Psr\Http\Message\ResponseInterface as Response;
 
 $app = new \Slim\App;
 
-// get all customers
-$app->get('/customers', function(Request $request, Response $response){
-    $sql="SELECT * FROM customers";
+// get all products
+$app->get('/products', function(Request $request, Response $response){
+    $sql="SELECT * FROM products";
     try{
         $db = new db();
         $db = $db->connect();
@@ -49,31 +49,31 @@ $app->get('/customer/{id}/orders', function(Request $request, Response $response
     }
 });
 // add customer
-$app->post('/customer/add', function(Request $request, Response $response){
-    $first_name=$request->getParam('first_name');
-    $last_name=$request->getParam('last_name');
-    $phone=$request->getParam('phone');
-    $email=$request->getParam('email');
-    $address=$request->getParam('address');
-    $city=$request->getParam('city');
-    $state=$request->getParam('state');
+$app->post('/product/add', function(Request $request, Response $response){
+    $productName=$request->getParam('productName');
+    $description=$request->getParam('description');
+    $stock=$request->getParam('stock');
+    $price=$request->getParam('price');
+    $tumbImg=$request->getParam('tumbImg');
+    $fullImg=$request->getParam('fullImg');
+    $category=$request->getParam('category');
 
-    $sql="INSERT INTO customers (first_name,last_name,phone,email,address,city,state) VALUES
-          (:first_name,:last_name,:phone,:email,:address,:city,:state)";
+    $sql="INSERT INTO products (productName,description,stock,price,tumbImg,fullImg,category) VALUES
+          (:productName,:description,:stock,:price,:tumbImg,:fullImg,:category)";
     try{
         $db = new db();
         $db = $db->connect();
         $stmt=$db->prepare($sql);
-        $stmt->bindParam(':first_name',$first_name);
-        $stmt->bindParam(':last_name',$last_name);
-        $stmt->bindParam(':phone',$phone);
-        $stmt->bindParam(':email',$email);
-        $stmt->bindParam(':address',$address);
-        $stmt->bindParam(':city',$city);
-        $stmt->bindParam(':state',$state);
+        $stmt->bindParam(':productName',$productName);
+        $stmt->bindParam(':description',$description);
+        $stmt->bindParam(':stock',$stock);
+        $stmt->bindParam(':price',$price);
+        $stmt->bindParam(':tumbImg',$tumbImg);
+        $stmt->bindParam(':fullImg',$fullImg);
+        $stmt->bindParam(':category',$category);
 
         $stmt->execute();
-        echo '{"notice":{"text":"Customer Added"}}';
+        echo '{"notice":{"text":"Product Added"}}';
     }catch(PDOException $e){
         echo '{"error":{"text":'.$e->getMessage().'}}';
     }

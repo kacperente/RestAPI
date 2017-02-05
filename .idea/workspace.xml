@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1537410e-88e6-41cc-9693-514a784f596a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/customers.php" afterPath="$PROJECT_DIR$/src/routes/customers.php" />
     </list>
     <ignored path="RestAPI.iws" />
@@ -37,10 +38,26 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="e#6#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81284404">
+              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+              <folding>
+                <element signature="e#6#62#0#PHP" expanded="true" />
+                <marker date="1486328114932" expanded="true" signature="241:263" placeholder="SELECT * FRO... products" />
+                <marker date="1486328114932" expanded="true" signature="703:736" placeholder="SELECT * FRO... customers" />
+                <marker date="1486328114932" expanded="true" signature="1193:1231" placeholder="SELECT * FRO... orders" />
+                <marker date="1486328114932" expanded="true" signature="1953:2123" placeholder="INSERT INTO products... " />
               </folding>
             </state>
           </provider>
@@ -56,15 +73,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/customers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56330276">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.807693">
+              <caret line="40" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="3" />
               <folding>
                 <element signature="e#6#62#0#PHP" expanded="true" />
-                <marker date="1486324217121" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
-                <marker date="1486324217121" expanded="true" signature="971:1124" placeholder="INSERT INTO customers... " />
+                <marker date="1486324959173" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
+                <marker date="1486324959173" expanded="true" signature="706:739" placeholder="SELECT * FRO... customers" />
+                <marker date="1486324959173" expanded="true" signature="1196:1234" placeholder="SELECT * FRO... orders" />
+                <marker date="1486324959173" expanded="true" signature="1939:2092" placeholder="INSERT INTO customers... " />
               </folding>
             </state>
           </provider>
@@ -99,10 +118,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/src/config/db.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/routes/customers.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/src/routes/products.php" />
       </list>
     </option>
   </component>
@@ -336,16 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769">
@@ -362,14 +372,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/customers.php">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56330276">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="e#6#62#0#PHP" expanded="true" />
-            <marker date="1486324217121" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
-            <marker date="1486324217121" expanded="true" signature="971:1124" placeholder="INSERT INTO customers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.807693">
+          <caret line="40" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#62#0#PHP" expanded="true" />
+            <marker date="1486324959173" expanded="true" signature="243:266" placeholder="SELECT * FRO... customers" />
+            <marker date="1486324959173" expanded="true" signature="706:739" placeholder="SELECT * FRO... customers" />
+            <marker date="1486324959173" expanded="true" signature="1196:1234" placeholder="SELECT * FRO... orders" />
+            <marker date="1486324959173" expanded="true" signature="1939:2092" placeholder="INSERT INTO customers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81284404">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#62#0#PHP" expanded="true" />
+            <marker date="1486328114932" expanded="true" signature="241:263" placeholder="SELECT * FRO... products" />
+            <marker date="1486328114932" expanded="true" signature="703:736" placeholder="SELECT * FRO... customers" />
+            <marker date="1486328114932" expanded="true" signature="1193:1231" placeholder="SELECT * FRO... orders" />
+            <marker date="1486328114932" expanded="true" signature="1953:2123" placeholder="INSERT INTO products... " />
           </folding>
         </state>
       </provider>
